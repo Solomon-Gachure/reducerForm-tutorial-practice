@@ -30,6 +30,22 @@ body {
   min-height: 100vh;
 }
 
+.form{
+  display: flex;
+  flex-direction: column;
+  background-color: cadetblue;
+  place-items: center;
+  padding: 12px;
+margin: 12px;
+gap: 10px;
+}
+
+.buttonCard{
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
