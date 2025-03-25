@@ -1,5 +1,6 @@
 
 import './App.css'
+import Counter from './components/counter'
 import Formreducer from './components/formreducer'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <div>
         <h1>React Hooks Tutorials</h1>
         <Formreducer/>
+        <Counter/>
       </div>
     </>
   )
